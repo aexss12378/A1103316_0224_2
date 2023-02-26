@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class num10 {
+
+    public static void main(String[] args) {
+        double num1,x;
+        System.out.println("請輸入攝氏溫度的值:");
+        Scanner num =new Scanner(System.in);
+        num1 = num.nextDouble();
+        x=num1*1.8+32;
+        System.out.printf("華氏溫度為:%f",x);
+    }
+}    
